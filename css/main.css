@@ -18,7 +18,8 @@ img {
 h1 {
   color: #623b0c;
   font-family: "Denk One", sans-serif;
-  margin: 1.5rem;
+  margin-left: 0;
+  padding-left: .5em;
 }
 
 h2 {
@@ -28,12 +29,14 @@ h2 {
 
 body {
   margin: 0;
+  padding: 2.75px;
+}
+
+main {
+  grid-area: main;
 }
 
 ol {
-  max-width: 90em;
-  margin: 1.5rem auto;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -42,9 +45,10 @@ ol {
 
 ol li {
   background-color: #ede3db;
-  width: 20em;
+  width: 100%;
   padding: .5em;
   border-style: solid;
+  border-width: 2px;
   border-color: #623b0c;
   border-radius: 8px;
 
