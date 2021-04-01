@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* font-family: 'Denk One', sans-serif; */
+
+h1 {
+  color: #623b0c;
+  font-family: 'Denk One', sans-serif;
+}
+
+h2 {
+  color: #623b0c;
+  font-family: 'Denk One', sans-serif;
+}
+
+body {
+  margin: 1.5rem;
+}
