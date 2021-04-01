@@ -13,13 +13,17 @@ html {
 
 img {
   width: 100%;
+  padding-bottom: .5em;
 }
 
 h1 {
   color: #623b0c;
   font-family: "Denk One", sans-serif;
   margin-left: 0;
-  padding-left: .5em;
+  padding-left: .35em;
+  padding-top: .05em;
+  padding-bottom: .6em;
+  line-height: 0;
 }
 
 h2 {
@@ -29,7 +33,8 @@ h2 {
 
 body {
   margin: 0;
-  padding: 2.75px;
+  padding-left: .25em;
+  padding-top: 1rem;
 }
 
 main {
@@ -41,16 +46,20 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: .5em .75em .6em;
+  padding-bottom: 1rem;
+  height: 960px;
 }
 
 ol li {
   background-color: #ede3db;
   width: 100%;
-  padding: .5em;
   border-style: solid;
   border-width: 2px;
   border-color: #623b0c;
   border-radius: 8px;
+
+  padding-left: 1em;
+  padding-right: 1em;
 
   display: flex;
   flex-direction: column;
@@ -60,14 +69,17 @@ ol li {
 ul p {
   line-height: 1.5rem;
   color: #000;
-  flex-grow: 1;
+  padding-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 a {
   background-color: #623b0c;
   color: #fff;
-  padding: .5em 1em;
-  display: inline;
+  padding-left: .8em;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   text-decoration: none;
   border-radius: 8px;
+  margin: 0;
 }
