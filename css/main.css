@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #f5f2f0;
 }
 
 *, *::before, *::after {
@@ -20,4 +21,43 @@ h2 {
 
 body {
   margin: 1.5rem;
+}
+
+ol {
+  padding: 0;
+  max-width: 90em;
+  margin: 1.5rem auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1em;
+}
+
+ol li {
+  background-color: #ede3db;
+  width: 20em;
+  padding: .5em;
+  border-width: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul p {
+  line-height: 1.5rem;
+  color: #000;
+  flex-grow: 1;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: .3em;
+  margin: 1em 0;
+  display: inline;
+  text-decoration: none;
 }
