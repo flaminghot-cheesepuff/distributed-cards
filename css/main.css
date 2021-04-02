@@ -103,3 +103,10 @@ a {
   text-decoration: none;
   border-radius: 8px;
 }
+
+ol::after {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ede3db;
+  margin-bottom: 1rem;
+}
